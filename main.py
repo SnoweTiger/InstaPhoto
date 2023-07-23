@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 import uvicorn
 
-# from routers.instagram import instagram_router
+from routers.instagram import instagram_router
 
 app = FastAPI()
 
@@ -11,7 +11,7 @@ def hello_world():
     return {"message": "Dummy-InstaParser-response"}
 
 
-# app.include_router(instagram_router)
+app.include_router(instagram_router)
 
 
 # Run the API with uvicorn
