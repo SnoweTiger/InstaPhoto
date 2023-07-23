@@ -1,0 +1,8 @@
+venv
+commands
+__pycache__
+webdriver
+.vscode
+
+*.ipynb
+

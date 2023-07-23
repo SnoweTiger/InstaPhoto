@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  insta_api:
+    build:
+      context: ../.
+      dockerfile: docker/Dockerfile
+    expose:
+      - 5000
+    ports:
+      - 5000:5000
+    restart: no

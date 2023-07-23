@@ -1,0 +1,1 @@
+docker build -f docker/Dockerfile -t instaphoto_api:0.1 .
