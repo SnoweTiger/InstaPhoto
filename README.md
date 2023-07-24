@@ -51,6 +51,6 @@ docker-compose up
 
    Using _Side service_ web interface and _Selenium_ to get _photo_counts_ of photos of instagram user _username_. _photo_counts_ is optional parameter, by default return all.
 
-3. `GET /getPhotosDummyBS/{username}?max_count={photo_counts}`
+3. `GET /getPhotosBS/{username}?max_count={photo_counts}`
 
    Using HTTP request to _side service_ and _BS4_ to get _photo_counts_ of photos of instagram user _username_. _photo_counts_ is optional parameter, by default return all.
